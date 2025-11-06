@@ -8,5 +8,5 @@ Frameworks : React.js Laravel
 
 
 
-This is a personal work done by 2 devs 
+This is a personal work done by 2 Web Devs 
                                                                                                                                                                                                               Unreal X Z-har
