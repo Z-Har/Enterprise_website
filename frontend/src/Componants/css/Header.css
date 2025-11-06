@@ -1,0 +1,117 @@
+.navbar {
+  transition: all 0.4s ease;
+}
+
+.nav-link {
+  position: relative;
+  color: #6c6b6b !important;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f79d0c;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #f79d0c !important;
+}
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.btn-custom {
+  background-color: #ffffff00 !important;
+  border-color: #f79d0c !important;
+  color: #f79d0c !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  transition: background-position 0.5s ease, transform 0.3s ease !important;
+  background-size: 200% auto !important;
+}
+
+/* hover / focus */
+.btn-custom:hover,
+.btn-custom:focus {
+  background-color: #f79d0c !important;
+  border-color: #f79d0c !important;
+  
+  color: #ffffff !important;
+    background-position: right center !important;
+  transform: scale(1.05) !important;
+}
+.lang-dropdown {
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  border-color: #f79d0c !important;
+  color: #f79d0c !important;
+  background-color: transparent !important;
+  transition: all 0.3s ease !important;
+}
+
+.lang-dropdown:hover,
+.lang-dropdown:focus,
+.lang-dropdown:active {
+  background-color: #f79d0c !important;
+  color: #fff !important;
+  border-color: #f79d0c !important;
+}
+body.dark-mode {
+  background-color: #121212 !important;
+  color: white !important;
+}
+
+body.dark-mode .navbar {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
+body.dark-mode .nav-link {
+  color: #ddd !important;
+}
+
+body.dark-mode .nav-link:hover {
+  color: #f79d0c !important;
+}
+
+body.dark-mode .btn-custom {
+  border-color: #f79d0c !important;
+  color: #f79d0c !important;
+}
+
+body.dark-mode .btn-custom:hover {
+  background-color: #f79d0c !important;
+  color: #fff !important;
+}
+
+body.dark-mode .lang-dropdown {
+  border-color: #f79d0c !important;
+  color: #f79d0c !important;
+}
+
+body.dark-mode .lang-dropdown:hover {
+  background-color: #f79d0c !important;
+  color: white !important;
+}
+.form-check-input {
+  cursor: pointer;
+  width: 2.5rem !important;
+  height: 1.3rem !important;
+  background-color: #f79d0c30 !important;
+  border: none !important;
+}
+
+.form-check-input:checked {
+  background-color: #f79d0c !important;
+  box-shadow: 0 0 6px rgba(247, 157, 12, 0.6);
+}
